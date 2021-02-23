@@ -1,0 +1,514 @@
+[
+  {
+    "id": "o1pa430tfh",
+    "word": "Fairytales",
+    "translation": "",
+    "image": "fairytales.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Dragon",
+        "translation": "Дракон",
+        "image": "img/Dragon.jpg",
+        "audioSrc": "audio/Dragon.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Knight",
+        "translation": "Рыцарь",
+        "image": "img/Knight.jpg",
+        "audioSrc": "audio/Knight.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Witch",
+        "translation": "Ведьма",
+        "image": "img/Witch.jpg",
+        "audioSrc": "audio/Witch.mp3"
+      },
+      {
+        "id": "4",
+        "word": "King",
+        "translation": "Король",
+        "image": "img/King.jpg",
+        "audioSrc": "audio/King.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Marmaid",
+        "translation": "Русалка",
+        "image": "img/Marmaid.jpg",
+        "audioSrc": "audio/Marmaid.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Princess",
+        "translation": "Принцесса",
+        "image": "img/Princess.jpg",
+        "audioSrc": "audio/Princess.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Wizard",
+        "translation": "Волшебник",
+        "image": "img/Wizard.jpg",
+        "audioSrc": "audio/Wizard.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Fairy",
+        "translation": "Фея",
+        "image": "img/Fairy.jpg",
+        "audioSrc": "audio/Fairy.mp3"
+      }
+    ]
+  },
+  {
+    "id": "jlpplm7muo",
+    "word": "Animals 1",
+    "translation": "",
+    "image": "animals1.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Cat",
+        "translation": "Кот",
+        "image": "img/Cat.jpg",
+        "audioSrc": "audio/Cat.mp"
+      },
+      {
+        "id": "2",
+        "word": "Owl",
+        "translation": "Сова",
+        "image": "img/Owl.jpg",
+        "audioSrc": "audio/Owl.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Goa",
+        "translation": "Коза",
+        "image": "img/Goat.jpg",
+        "audioSrc": "audio/Goat.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Deer",
+        "translation": "Олень",
+        "image": "img/Deer.jpg",
+        "audioSrc": "audio/Deer.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Lynx",
+        "translation": "Рысь",
+        "image": "img/Lynx.jpg",
+        "audioSrc": "audio/Lynx.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Koala",
+        "translation": "Коала",
+        "image": "img/Koala.jpg",
+        "audioSrc": "audio/Koala.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Hippopoptamus",
+        "translation": "Бегемот",
+        "image": "img/Hippopoptamus.jpg",
+        "audioSrc": "audio/Hippopoptamus.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Raccoon",
+        "translation": "Енот",
+        "image": "img/Raccoon.jpg",
+        "audioSrc": "audio/Raccoon.mp3"
+      }
+    ]
+  },
+  {
+    "id": "7xuo21e83z",
+    "word": "Animals 2",
+    "translation": "",
+    "image": "animals2.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Zebra",
+        "translation": "Зебра",
+        "image": "img/Zebra.jpg",
+        "audioSrc": "audio/Zebra.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Turtle",
+        "translation": "Черепаха",
+        "image": "img/Turtle.jpg",
+        "audioSrc": "audio/Turtle.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Sparrow",
+        "translation": "Воробей",
+        "image": "img/Sparrow.jpg",
+        "audioSrc": "audio/Sparrow.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Unicorn",
+        "translation": "Единорог",
+        "image": "img/Unicorn.jpg",
+        "audioSrc": "audio/Unicorn.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Tiger",
+        "translation": "Тигр",
+        "image": "img/Tiger.jpg",
+        "audioSrc": "audio/Tiger.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Hedgehog",
+        "translation": "Ёж",
+        "image": "img/Hedgehog.jpg",
+        "audioSrc": "audio/Hedgehog.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Dolphin",
+        "translation": "Дельфин",
+        "image": "img/Dolphin.jpg",
+        "audioSrc": "audio/Dolphin.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Hamster",
+        "translation": "Хомяк",
+        "image": "img/Hamster.jpg",
+        "audioSrc": "audio/Hamster.mp3"
+      }
+    ]
+  },
+  {
+    "id": "pvntg0l5h1",
+    "word": "Animals 3",
+    "translation": "",
+    "image": "animals3.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Snail",
+        "translation": "Улитка",
+        "image": "img/Snail.jpg",
+        "audioSrc": "audio/Snail.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Elephant",
+        "translation": "Слон",
+        "image": "img/Elephant.jpg",
+        "audioSrc": "audio/Elephant.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Duck",
+        "translation": "Утка",
+        "image": "img/Duck.jpg",
+        "audioSrc": "audio/Duck.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Leopard",
+        "translation": "Леопард",
+        "image": "img/Leopard.jpg",
+        "audioSrc": "audio/Leopard.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Sheep",
+        "translation": "Овца",
+        "image": "img/Sheep.jpg",
+        "audioSrc": "audio/Sheep.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Cat",
+        "translation": "Кот",
+        "image": "img/Cat1.jpg",
+        "audioSrc": "audio/Cat.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Rhinoceros",
+        "translation": "Носорог",
+        "image": "img/Rhinoceros.jpg",
+        "audioSrc": "audio/Rhinoceros.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Crocodile",
+        "translation": "Крокодил",
+        "image": "img/Crocodile.jpg",
+        "audioSrc": "audio/Crocodile.mp3"
+      }
+    ]
+  },
+  {
+    "id": "0rvhnecy5r",
+    "word": "Food 1",
+    "translation": "",
+    "image": "food1.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Salad",
+        "translation": "Салат",
+        "image": "img/Salad.jpg",
+        "audioSrc": "audio/Salad.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Cake",
+        "translation": "Торт",
+        "image": "img/Cake.jpg",
+        "audioSrc": "audio/Cake.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Tako",
+        "translation": "Тако",
+        "image": "img/Tako.jpg",
+        "audioSrc": "audio/Tako.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Bread",
+        "translation": "Хлеб",
+        "image": "img/Bread.jpg",
+        "audioSrc": "audio/Bread.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Hot-dog",
+        "translation": "Хот-дог",
+        "image": "img/Hot-dog.jpg",
+        "audioSrc": "audio/Hot-dog.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Ham",
+        "translation": "Ветчина",
+        "image": "img/Ham.jpg",
+        "audioSrc": "audio/Ham.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Sushi",
+        "translation": "Суши",
+        "image": "img/Sushi.jpg",
+        "audioSrc": "audio/Sushi.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Sausage",
+        "translation": "Колбаса",
+        "image": "img/Sausage.jpg",
+        "audioSrc": "audio/Sausage.mp3"
+      }
+    ]
+  },
+  {
+    "id": "7bpfdhdbkn",
+    "word": "Food 2",
+    "translation": "",
+    "image": "food2.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Egg",
+        "translation": "Яйцо",
+        "image": "img/Egg.jpg",
+        "audioSrc": "audio/Egg.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Fries",
+        "translation": "Фри",
+        "image": "img/Fries.jpg",
+        "audioSrc": "audio/Fries.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Burger",
+        "translation": "Бургер",
+        "image": "img/Burger.jpg",
+        "audioSrc": "audio/Burger.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Noodles",
+        "translation": "Лапша",
+        "image": "img/Noodles.jpg",
+        "audioSrc": "audio/Noodles.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Muffin",
+        "translation": "Кекс",
+        "image": "img/Muffin.jpg",
+        "audioSrc": "audio/Muffin.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Cheese",
+        "translation": "Сыр",
+        "image": "img/Cheese.jpg",
+        "audioSrc": "audio/Cheese.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Donut",
+        "translation": "Пончик",
+        "image": "img/Donut.jpg",
+        "audioSrc": "audio/Donut.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Sandwich",
+        "translation": "Бутерброд",
+        "image": "img/Sandwich.jpg",
+        "audioSrc": "audio/Sandwich.mp3"
+      }
+    ]
+  },
+  {
+    "id": "9rfddrcciq",
+    "word": "Conditions",
+    "translation": "",
+    "image": "conditions.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Tire",
+        "translation": "Уставший",
+        "image": "img/Tire.jpg",
+        "audioSrc": "audio/Tire.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Wonder",
+        "translation": "Удивляться",
+        "image": "img/Wonder.jpg",
+        "audioSrc": "audio/Wonder.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Drive",
+        "translation": "Водить",
+        "image": "img/Drive.jpg",
+        "audioSrc": "audio/Drive.mp3"
+      },
+      {
+        "id": "4",
+        "word": "Boast",
+        "translation": "Хвастаться",
+        "image": "img/Boast.jpg",
+        "audioSrc": "audio/Boast.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Smile",
+        "translation": "Улыбаться",
+        "image": "img/Smile.jpg",
+        "audioSrc": "audio/Smile.mp3"
+      },
+      {
+        "id": "6",
+        "word": "Caress",
+        "translation": "Гладить",
+        "image": "img/Caress.jpg",
+        "audioSrc": "audio/Caress.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Work",
+        "translation": "Работать",
+        "image": "img/Work.jpg",
+        "audioSrc": "audio/Work.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Relax",
+        "translation": "Отдыхать",
+        "image": "img/Relax.jpg",
+        "audioSrc": "audio/Relax.mp3"
+      }
+    ]
+  },
+  {
+    "id": "roimdnuitd",
+    "word": "Places",
+    "translation": "",
+    "image": "places.png",
+    "cardsChildren": [
+      {
+        "id": "1",
+        "word": "Village",
+        "translation": "Деревня",
+        "image": "img/Village.jpg",
+        "audioSrc": "audio/Village.mp3"
+      },
+      {
+        "id": "2",
+        "word": "Forest",
+        "translation": "Лес",
+        "image": "img/Forest.jpg",
+        "audioSrc": "audio/Forest.mp3"
+      },
+      {
+        "id": "3",
+        "word": "Field",
+        "translation": "Поле",
+        "image": "img/Field.jpg",
+        "audioSrc": "audio/Field.mp3"
+      },
+      {
+        "id": "4",
+        "word": "City",
+        "translation": "Город",
+        "image": "img/City.jpg",
+        "audioSrc": "audio/City.mp3"
+      },
+      {
+        "id": "5",
+        "word": "Beach",
+        "translation": "Пляж",
+        "image": "img/Beach.jpg",
+        "audioSrc": "audio/Beach.mp3"
+      },
+      {
+        "id": "6",
+        "word": "River",
+        "translation": "Река",
+        "image": "img/River.jpg",
+        "audioSrc": "audio/River.mp3"
+      },
+      {
+        "id": "7",
+        "word": "Room",
+        "translation": "Комната",
+        "image": "img/Room.jpg",
+        "audioSrc": "audio/Room.mp3"
+      },
+      {
+        "id": "8",
+        "word": "Desert",
+        "translation": "Пустыня",
+        "image": "img/Desert.jpg",
+        "audioSrc": "audio/Desert.mp3"
+      }
+    ]
+  }
+]
