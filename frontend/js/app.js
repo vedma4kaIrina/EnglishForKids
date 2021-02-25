@@ -1,9 +1,11 @@
-import {parseRequestURL} from './helpers/utils.js';
+import '../styles/app';
 
-import Main from './views/pages/main.js';
-import Play from './views/pages/play.js';
-import Error404 from './views/pages/error404.js';
-import About from './views/pages/about.js';
+import {parseRequestURL} from './helpers/utils';
+
+import Main from './views/pages/main';
+import Play from './views/pages/play';
+import Error404 from './views/pages/error404';
+import About from './views/pages/about';
 
 const Routes = {
     '/': About,

@@ -1,7 +1,9 @@
-import Component from '../../views/component.js';
-import Menu from '../../models/Menu.js';
-import SwitchCheck from '../../models/Switch.js';
-import Cards from '../../models/card.js';
+import Component from '../../views/component';
+import Menu from '../../models/Menu';
+import SwitchCheck from '../../models/Switch';
+import Cards from '../../models/card';
+
+import CardTemplate from '../../../templates/pages/cards/play';
 
 class Play extends Component {
     constructor() {
@@ -9,7 +11,6 @@ class Play extends Component {
 
         this.model = new Cards();
     }
-
 
     getData() {
         return new Promise(resolve => this.model.getCardsList().then(cards => resolve(cards)));
@@ -22,7 +23,7 @@ class Play extends Component {
         return new Promise(resolve => {
 
             resolve(`
-                ${this.cards.find(card => card.id === this.request.id).cardsChildren.map(card => this.createCard(card))}
+                ${this.cards.find(card => card.id === this.request.id).cardsChildren.map(card => CardTemplate({card}))}
             `);
         });
     }
@@ -167,39 +168,6 @@ class Play extends Component {
             frontContainer.classList.remove('front-rotate');
             frontContainer.nextElementSibling.classList.remove('back-rotate');
         });
-    }
-
-    createCard(card) {
-        return `
-        <div class="card" data-id=${card.id} data-audio=${card.audioSrc}>
-            <div class="front">
-                <div class="img-card" style="background-image: url('../../../${card.image}')"></div>
-                <div class="description">
-                    <div class="description-string">
-                        <div class="description-title">${card.word}</div>
-                        <div class="roll-button"><img src="../../../img/arrow.svg" alt="" class="arrow"></div>
-                    </div>            
-                    <div class="description-string">
-                        <div class="condition-wrapper">
-                            <div class="condition"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div class="img-card" style="background-image: url('../../../${card.image}')"></div>
-                <div class="description">
-                    <div class="description-string">
-                        <div class="description-title">${card.translation}</div>
-                    </div>
-                    <div class="description-string">
-                        <div class="condition-wrapper">
-                            <div class="condition"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>`;
     }
 
     redirectToCard() {

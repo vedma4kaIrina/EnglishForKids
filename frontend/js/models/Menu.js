@@ -1,3 +1,5 @@
+import MenuTemplate from '../../templates/partials/menu';
+
 class Menu {
     constructor(linkName) {
         this.linkName = linkName;
@@ -84,56 +86,7 @@ class Menu {
     }
 
     createMenu() {
-        document.getElementsByClassName('header')[0].innerHTML += `
-        <div class="menu">
-                <div class="menu-i">
-                    <div class="menu-line">
-                        <!-- rectangle -->
-                        <svg class="rect-left" width="30" height="5" viewbox="0 0 30 5" xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="30" height="5" rx="2.5" fill="#7033FF" />
-                        </svg>
-                        <!-- circle -->
-                        <svg class="circle-right" width="5" height="5" viewbox="0 0 5 5" xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="5" height="5" rx="2.5" fill="#FFBC29" />
-                        </svg>
-                    </div>
-                    <div class="menu-line">
-                        <!-- circle -->
-                        <svg class="circle-left" width="5" height="5" viewbox="0 0 5 5" xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="5" height="5" rx="2.5" fill="#7033FF" />
-                        </svg>
-                        <!-- rectangle -->
-                        <svg class="rect-right" width="30" height="5" viewbox="0 0 30 5" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="30" height="5" rx="2.5" fill="#FF6024" />
-                        </svg>
-                    </div>
-                    <!-- rectangle -->
-                    <div class="menu-line">
-                        <svg class="rect-left" width="30" height="5" viewbox="0 0 30 5" fill="#FF6024"  xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="30" height="5" rx="2.5" fill="#FFBC29" />
-                        </svg>
-                        <!-- circle -->
-                        <svg class="circle-right" width="5" height="5" viewbox="0 0 5 5" fill="#FF6024"  xmlns="http://www.w3.org/2000/svg">
-                            <rect class="" width="5" height="5" rx="2.5" fill="#FF6024" />
-                        </svg>
-                    </div>
-                </div>
-                <!-- <img src="assets/img/menu.svg" class="menu-icon"> -->
-                <div class="menu-list">
-                    <ul class="menu-ul">
-                        <li class="menu-link" linkName = "m">Main Page</li>
-                        <li class="menu-link" linkName = "0">Fairytales</li>
-                        <li class="menu-link" linkName = "1">Animals 1</li>
-                        <li class="menu-link" linkName = "2">Animals 2</li>
-                        <li class="menu-link" linkName = "3">Animals 3</li>
-                        <li class="menu-link" linkName = "4">Food 1</li>
-                        <li class="menu-link" linkName = "5">Food 2</li>
-                        <li class="menu-link" linkName = "6">Emotions</li>
-                        <li class="menu-link" linkName = "7">Places</li>
-                    </ul>
-                </div>
-            </div>`;
+        document.getElementsByClassName('header')[0].innerHTML += MenuTemplate();
         return this;
     }
 }

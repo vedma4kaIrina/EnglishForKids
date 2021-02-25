@@ -3,7 +3,7 @@ const Webpack = require('webpack'),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     MiniCssExtractPlugin = require('mini-css-extract-plugin'),
     OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
-    AutoPrefixer = require('autoprefixer'),
+    // AutoPrefixer = require('autoprefixer'),
     UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
     devtool: 'source-map',
 
     resolve: {
-        extensions: ['.css', '.hbs', '.js']
+        extensions: ['.css', '.hbs', '.js', '.png']
     },
 
     module: {
@@ -44,27 +44,31 @@ module.exports = {
                     'eslint-loader'
                 ]
             },
-            //{
-            //    test: /\.less$/,
-            //    exclude: /node_modules/,
-            //    use: [
-            //        MiniCssExtractPlugin.loader,
-            //        'css-loader',
-            //        {
-            //            loader: 'postcss-loader',
-            //            options: {
-            //                plugins: [
-            //                    AutoPrefixer()
-            //                ]
-            //            }
-            //        },
-            //        'less-loader'
-            //    ]
-            //},
             {
-                test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
+                test: /\.css$/,
+                exclude: /node_modules/,
+                use: ['style-loader', 'css-loader']
             },
+
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                exclude: /node_modules/,
+                use: [
+                  {
+                    loader: 'file-loader'
+                  }
+                ]
+            },
+
+            /* {
+                test: /\.(png)$/i,
+                exclude: /node_modules/,
+                use: [
+                  {
+                    loader: 'url-loader'
+                  }
+                ]
+            }, */
 
             {
                 test: /\.hbs$/,

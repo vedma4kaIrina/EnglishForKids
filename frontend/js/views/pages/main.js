@@ -1,7 +1,9 @@
-import Component from '../../views/component.js';
-import Cards from '../../models/card.js';
-import Menu from '../../models/Menu.js';
-import SwitchCheck from '../../models/Switch.js';
+import Component from '../../views/component';
+import Cards from '../../models/card';
+import Menu from '../../models/Menu';
+import SwitchCheck from '../../models/Switch';
+
+import CardsTemplate from '../../../templates/pages/cards/main';
 
 class Main extends Component {
     constructor() {
@@ -18,7 +20,7 @@ class Main extends Component {
         return new Promise(resolve => {
 
             resolve(`
-                ${cards.map(card => this.createCard(card))}
+                ${cards.map(card => CardsTemplate({card}))}
             `);
         });
 
@@ -57,41 +59,6 @@ class Main extends Component {
         location.hash = `#/card/${id}`;
     }
 
-    createCard(card) {
-
-        return `
-        <div class="card" data-id=${card.id}">
-            <div class="front">
-                <div class="img-card" data-id=${card.id} style="background-image: url('../../../img/${card.image}')"></div>
-                <div class="description">
-                    <div class="description-string">
-                        <div class="description-title">${card.word}</div>
-                    </div>
-                    <div class="description-string">
-                        <div class="description-amount">8 cards</div>
-                        <div class="condition-wrapper">
-                            <div class="condition"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div class="img-card" style="background-image: url('../../../img/${card.image}')"></div>
-                <div class="description">
-                    <div class="description-string">
-                        <div class="description-title">${card.translation}</div>
-                    </div>
-                    <div class="description-string">
-                        <div class="description-amount">8 cards</div>
-                        <div class="condition-wrapper">
-                            <div class="condition"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `;
-    }
 }
 
 export default Main;

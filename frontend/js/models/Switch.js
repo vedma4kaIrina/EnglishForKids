@@ -1,3 +1,6 @@
+import SwitchTemplate from '../../templates/partials/switch';
+import ButtonStartTemplate from '../../templates/partials/buttonStart';
+
 class SwitchCheck {
     constructor() {
         this.arrayRandom = [];
@@ -77,13 +80,7 @@ class SwitchCheck {
             this.arrayRandom.sort(() => Math.random() - 0.5);
 
             addButton.classList.add('start');
-            addButton.innerHTML = `
-                <div class="button-start">
-                    <div class="circle" style="background-image: url();">
-                        <img src="../../img/arrow-but.svg" alt="" class="arrow-but">
-                    </div>
-                    <span class="button-text">ST\u0410RT</span>
-                </div>`;
+            addButton.innerHTML = ButtonStartTemplate();
             imgCard.forEach(el => el.classList.toggle('height100'));
             description.forEach(el => el.classList.toggle('none'));
             this.cardsSwitch.appendChild(addButton);
@@ -146,15 +143,7 @@ class SwitchCheck {
     }
 
     createSwitch() {
-
-        document.getElementsByClassName('header')[0].innerHTML += `
-                <div class="switch">
-                <input type="checkbox" class="checkbox" id="checkbox">
-                <label for="checkbox" class="checkbox-label"></label>
-                <span class="train">Train</span>
-                <span class="play none">Play</span>
-                <span class="switch-bg"></span>
-                </div>`;
+        document.getElementsByClassName('header')[0].innerHTML += SwitchTemplate();
         return this;
     }
 }
